@@ -1,0 +1,218 @@
+.right {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.modCard {
+  list-style: none;
+  background-clip: border-box;
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  word-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modImage {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  background-color: azure;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.cardBody {
+  background-color: grey;
+  padding: 0.8rem;
+}
+
+/* .cardBody a:hover {
+  background-color: #e09f06;
+  border-color: #ce9206;
+} */
+
+.cardBody a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.cardBody a:visited {
+  color: #fff !important;
+}
+
+/* ∫ */
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.type {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  line-height: 0.8rem;
+  margin-top: 4px;
+}
+
+.downloadButtonDCS {
+  margin-top: 10px;
+  background-color: #efbb43;
+  border: 1px solid #99782c;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.downloadButtonDCS:hover {
+  background-color: #e09f06;
+  border-color: #a67706;
+}
+
+.downloadButtonMSFS {
+  margin-top: 10px;
+  background-color: #008fcc;
+  border: 1px solid #0680b4;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.downloadButtonMSFS:hover {
+  background-color: #0379ac;
+  border-color: #036f9d;
+}
+
+.downloadButtonAC {
+  margin-top: 10px;
+  background-color: #c21d37;
+  border: 1px solid #a1192d;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.downloadButtonAC:hover {
+  background-color: #a71a2f;
+  border-color: #8d1729;
+}
+
+.downloadButtonRF2 {
+  margin-top: 10px;
+  background-color: #00c2ee;
+  border: 1px solid #017893;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.downloadButtonRF2:hover {
+  background-color: #0394b4;
+  border-color: #0486a3;
+}
+
+.downloadButtonMusic {
+  margin-top: 10px;
+  background-color: #759865;
+  border: 1px solid #618053;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.downloadButtonMusic:hover {
+  background-color: #5f7953;
+  border-color: #58704d;
+}
+
+.info {
+  position: relative;
+  float: right;
+  top: -24px;
+  margin-right: 0;
+  background-color: rgba(24, 24, 24, 0.164);
+  padding: 2px 4px;
+  border-top-left-radius: calc(0.25rem - 1px);
+}
+
+.info:hover {
+  background-color: grey;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info a:visited {
+  color: #fff;
+}

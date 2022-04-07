@@ -1,0 +1,235 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 10px;
+  padding: 10px 40px;
+  justify-content: center;
+}
+
+.gridDaw {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 10px;
+  padding: 10px 40px;
+  justify-content: center;
+}
+
+.maintitleNoResults {
+  display: none;
+}
+
+.maintitleDCSMods {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleDCSMods {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleDCSMissions {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleDCSOther {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMSFSAddons {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMSFSAirports {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMSFSLiveries {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMSFSOther {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleACCars {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleACTracks {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleACOther {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleRf2Cars {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleRf2Tracks {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleRf2Other {
+  color: #fff;
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMusicDaw {
+  color: #fff;
+  background-color: grey;
+  margin: 10px 0 10px 0;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMusicVST {
+  color: #fff;
+  background-color: grey;
+  margin: 10px 0 10px 0;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.maintitleMusicSamples {
+  color: #fff;
+  background-color: grey;
+  margin: 10px 0 10px 0;
+  padding: 10px 25px;
+  width: 125px;
+  text-align: left;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.filter {
+  position: relative;
+  float: right;
+  padding: 10px;
+}
+.filter select {
+  margin-left: 5px;
+}
+.filter label {
+  font-size: 0.8rem;
+}

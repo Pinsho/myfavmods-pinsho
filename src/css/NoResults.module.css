@@ -1,0 +1,25 @@
+.container {
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+}
+
+.text {
+  font-size: 1rem;
+}
