@@ -8,12 +8,12 @@ import {
 } from "react-router-dom";
 import { Search } from './Search';
 import Home from '../pages/Home';
-import DCS from '../pages/DCS';
+/* import DCS from '../pages/DCS';
 import MSFS2020 from '../pages/MSFS2020';
 import AssettoCorsa from '../pages/AssettoCorsa';
 import ACCompetizione from '../pages/ACCompetizione';
 import Rfactor2 from '../pages/Rfactor2';
-import MusicProd from '../pages/MusicProd';
+import MusicProd from '../pages/MusicProd'; */
 
 export default class NavbarComp extends Component {
     render() {
@@ -77,14 +77,9 @@ export default class NavbarComp extends Component {
                 </div>
                 <div>
                     <Routes>
-                        <Route path="*" element={<div><h1>404 NOT FOUND</h1></div>}/>
+                        
                         <Route path="/" element={<Home/>}/>
-                        <Route path="/dcs" element={<DCS/>}/>
-                        <Route path="/msfs2020" element={<MSFS2020/>}/>
-                        <Route path="/rfactor2" element={<Rfactor2/>}/>
-                        <Route path="/assettocorsa" element={<AssettoCorsa/>}/>
-                        <Route path="/accompetizione" element={<ACCompetizione/>}/>
-                        <Route path="/musicproduction" element={<MusicProd/>}/>
+                        
                     </Routes>
                 </div>
             </Router>
